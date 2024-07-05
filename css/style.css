@@ -279,12 +279,12 @@ opacity: 1;
 
 }
 .vehicles .vehicles-slider .box{
-    position: relative; /* Ensure relative positioning for absolute positioning inside */
-    height: 100%; /* Ensure the box takes full height */
-    display: flex; /* Use flexbox to align content */
-    flex-direction: column; /* Stack items vertically */
-    justify-content: space-between; /* Push content to the top and bottom */
-    text-align: center; /* Center text-align if needed */
+    position: relative; 
+    height: 100%; 
+    display: flex; 
+    flex-direction: column;
+   
+    text-align: center;
 }
 .vehicles .vehicles-slider .box img{
    width: 100%;
@@ -297,7 +297,7 @@ opacity: 1;
        padding-bottom: 2.5rem;
    transform: scale(0);
         position: relative;
-    bottom: 0; /* Position content at the bottom */
+justify-content:flex-end;
  
     
 }
