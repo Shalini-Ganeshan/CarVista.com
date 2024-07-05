@@ -304,8 +304,8 @@ opacity: 1;
 
 .vehicles .vehicles-slider .swiper-slide-active .content{
     transform: scale(1);
-       position:absolute;
-       padding-bottom: 2.5rem;
+     bottom:0;
+      
 }
 
 .vehicles .vehicles-slider .box .content h3{
