@@ -291,8 +291,9 @@ opacity: 1;
 }
 
 .vehicles .vehicles-slider .box .content{
-   padding-top: 1rem;
+   padding-bottom: 2.5rem;
    transform: scale(0);
+    
 }
 
 .vehicles .vehicles-slider .swiper-slide-active img{
