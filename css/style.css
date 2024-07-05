@@ -280,8 +280,7 @@ opacity: 1;
 }
 .vehicles .vehicles-slider .box{
     text-align: center;
-   
-
+    justify-content:space-between;
 }
 .vehicles .vehicles-slider .box img{
    width: 100%;
