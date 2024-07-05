@@ -279,8 +279,12 @@ opacity: 1;
 
 }
 .vehicles .vehicles-slider .box{
-    text-align: center;
-    justify-content:space-between;
+    position: relative; /* Ensure relative positioning for absolute positioning inside */
+    height: 100%; /* Ensure the box takes full height */
+    display: flex; /* Use flexbox to align content */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: space-between; /* Push content to the top and bottom */
+    text-align: center; /* Center text-align if needed */
 }
 .vehicles .vehicles-slider .box img{
    width: 100%;
