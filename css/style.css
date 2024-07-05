@@ -296,6 +296,8 @@ opacity: 1;
 .vehicles .vehicles-slider .box .content{
        padding-bottom: 2.5rem;
    transform: scale(0);
+        position: absolute;
+    bottom: 0; /* Position content at the bottom */
  
     
 }
